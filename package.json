@@ -1,0 +1,27 @@
+{
+  "name": "05_authenticattion_n_authorization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -L src/index.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "alfarukky",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.4",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0"
+  }
+}
