@@ -17,7 +17,8 @@
     "express": "^4.19.2",
     "joi": "^17.12.3",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.3.1"
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.4",
