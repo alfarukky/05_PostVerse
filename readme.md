@@ -9,19 +9,33 @@
 
 ## Overview
 
-This Node.js application achieves the following goals:
+TThis Node.js web application is designed to provide users with functionalities for user registration, authentication, and post management. The application is built with the following features:
 
-1- **_Authentication:_** It extracts the username and password from the Authorization header using Basic Authentication.
+1. **User Registration:** Users can register on the app by providing necessary details like username, email, and password.
 
-2- **_Body Handling:_** The application asynchronously parses the request body, freeing it up to carry payloads for other HTTP methods.
+2. **User Login:** Registered users can securely log in to their accounts using their credentials.
 
-3- **_Book and Author Endpoints:_** Additional endpoints are added for books and authors, supporting GET, POST, PUT, PATCH, and DELETE methods. While these endpoints don't perform actual actions, they respond to requests accordingly.
-Overall, the application provides a basic framework for handling authentication, routing requests to appropriate endpoints, and responding to various HTTP methods for both books and authors.
+3. **Post Creation:** Authenticated users can create new posts by providing content and optionally attaching media or other relevant information.
+
+4. **Post Update:** Users have the ability to update their own posts, modifying the content or attached media as needed.
+
+5. **View All Posts:** Users can view a feed containing all posts from all users, including their own.
+
+6. **View Single Post:** Users can view individual posts, whether they belong to themselves or to other users.
+
+7. **Post Deletion:** Users are empowered to delete their own posts. However, they are not allowed to delete posts created by other users.
 
 ### Built with
 
-- **NODE**
-- **JAVASCRIPT**
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose**
+- **Bcrypt.js**
+- **dotenv**
+- **Joi**
+- **Testing Framework(jest)**
+- **JWT (JSON Web Tokens)**
 
 ## Author
 
